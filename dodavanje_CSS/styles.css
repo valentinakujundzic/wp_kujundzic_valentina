@@ -1,0 +1,75 @@
+/* univerzalni selektor */
+* {
+font-family: "Montserrat", sans-serif; 
+}
+
+
+
+/*element selektor*/
+h3{
+    color:blue;
+    background-color: darkgreen;
+}
+
+p{
+color: #333;
+}
+
+p{
+font-weight: 300;
+color: #8384de;
+font-size: 2rem;
+font-stretch: expanded;
+}
+
+div{
+    width: 400px;
+    height:400px ;
+    background-color: chocolate;
+    text-align: center;
+}
+
+/* selektor klase*/
+.naslov{
+    color: brown;
+}
+
+h4{
+    color:#5203fc ;
+}
+
+.rgb{
+color: rgb(25, 50, 55);
+}
+.amet {
+    background-color: darksalmon;
+    color: darkgoldenrod;
+}
+/* selektor id*/
+#naslov1{
+    color: aqua;
+}
+
+/* Zadatak za vježbu */
+.podnaslov{
+    color: black;
+}
+.crvenikvadrat{
+    color: darkred;
+    width: 200px;
+    height:200px ;
+    background-color: darkred;
+}
+
+.plavikvadrat{
+    width:200px ;
+    height: 200px;
+    background-color: darkblue;
+}
+.narančastikvadrat{
+    width:200px ;
+    height: 200px;
+    background-color: orange;
+}
+
+
