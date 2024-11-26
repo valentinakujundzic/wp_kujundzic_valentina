@@ -1,0 +1,47 @@
+/*   ovdje uvozim font koji koristim  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*   ovdje postavljm font za sve elemente na stranici */
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+#main-title {
+    font-size: 4em;
+}
+
+h2{
+    color: #4CAF50;
+}
+main {
+    background-color: #ECEFF1;
+}
+
+.highlight{
+    font-size: 16px;
+    color: #FFC107;
+}
+
+#a2{
+    font-size: 18px;
+    color: #546E7A;
+}
+#a3{
+    font-size: 20px;
+    color: #78909C;
+}
+
+/*   ovdje mjenjam oznaku koja se stavlja prije stavke u listi  */
+#b1 {
+    list-style-type: "- ";
+}
+#b2 {
+    list-style-type: "-> ";
+}
+#b3 {
+    list-style-type: "> ";
+}
