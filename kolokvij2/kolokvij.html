@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadaci</title>
+    <style>
+        /* Zastava Belgije */
+        .zastava {
+            display: flex;
+            width: 300px;
+            height: 200px;
+            margin-bottom: 30px;
+        }
+        .pruga {
+            flex: 1;
+            height: 100%;
+        }
+        .crna {
+            background-color: black;
+        }
+        .zelena {
+            background-color: yellow;
+        }
+        .crvena {
+            background-color: red;
+        }
+
+        /* CSS Grid 4x4 */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 100px);
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        .grid div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightblue;
+            border: 1px solid #ccc;
+        }
+
+        /* Box model */
+        .box {
+            border: 1px solid black;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        /* Klase i ID-ovi */
+        .klasa {
+            color: blue;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            margin: 5px;
+        }
+        #id1 {
+            color: green;
+            font-size: 20px;
+            padding: 15px;
+        }
+        #id2 {
+            color: red;
+            font-size: 18px;
+            margin: 20px;
+        }
+    </style>
+    <script>
+        // JavaScript zadatak
+        window.onload = function() {
+            let ime = prompt("Unesite vaše ime:");
+            alert("Vaše ime je " + ime);
+        };
+    </script>
+</head>
+<body>
+
+    <!-- 1. Zastava Belgije -->
+    <h2>Zastava Belgije</h2>
+    <div class="zastava">
+        <div class="pruga crna"></div>
+        <div class="pruga zelena"></div>
+        <div class="pruga crvena"></div>
+    </div>
+
+    <!-- 2. CSS Grid 4x4 -->
+    <h2>CSS Grid 4x4</h2>
+    <div class="grid">
+        <div>Valentina</div>
+        <div>Josip</div>
+        <div>Ana</div>
+        <div>Dea</div>
+        <div>Nika</div>
+        <div>Klara</div>
+        <div>Lana</div>
+        <div>Gabrijel</div>
+        <div>Matea</div>
+        <div>Stela</div>
+        <div>Ema</div>
+        <div>Marta</div>
+        <div>Valerija</div>
+        <div>Nina</div>
+        <div>Karlo</div>
+        <div>Borna</div>
+    </div>
+
+    <!-- 3. Box model -->
+    <h2>Box Model</h2>
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <div class="box">Box 4</div>
+
+    <!-- 4. Upotreba klase i ID-a -->
+    <h2>Klase i ID-ovi</h2>
+    <p class="klasa">Paragraf 1 - Klasa</p>
+    <p class="klasa">Paragraf 2 - Klasa</p>
+    <p class="klasa">Paragraf 3 - Klasa</p>
+    <p id="id1">Paragraf 4 - ID 1</p>
+    <p id="id2">Paragraf 5 - ID 2</p>
+
+</body>
+</html>
